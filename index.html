@@ -1,0 +1,402 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+     <title>Sexta aplicacion</title>
+
+      <!--grupo CSS-->
+        <link rel="stylesheet" href="css/tema-app6.min.css"/>
+        <link rel="stylesheet" href="CSS/jquery.mobile.icons-1.4.5.min.css"/>
+        <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+        <!--grupo JavaScript-->
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/acciones.js"></script>
+        <script src="phonegap.js"></script>
+        
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/batalla-de-Puebla.png','imagenes/batalla_puebla_eu-movil.png','imagenes/se-produjo-la-batalla-de-las-piramides-600x310.png','imagenes/batalla-5-de-mayo.png')">
+
+
+   <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+   <h1> Batalla del 5 de Mayo </h1>
+   </div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/13054112_41_26.png" alt="13054-1-12_41_26" title="13054-1-12_41_26" id="wows1_0"/></li>
+		<li><img src="data1/images/244962_4677a22d632c3463afa17235c852caba_large.png" alt="244962_4677a22d632c3463afa17235c852caba_large" title="244962_4677a22d632c3463afa17235c852caba_large" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla_puebla_eumovil.png" alt="batalla_puebla_eu-movil" title="batalla_puebla_eu-movil" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla5demayo.png" alt="batalla-5-de-mayo" title="batalla-5-de-mayo" id="wows1_3"/></li>
+		<li><img src="data1/images/batalladepuebla.png" alt="batalla-de-Puebla" title="batalla-de-Puebla" id="wows1_4"/></li>
+		<li><img src="data1/images/historiadelabatalladepueblamexico.png" alt="historia-de-la-batalla-de-puebla-mexico" title="historia-de-la-batalla-de-puebla-mexico" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/maxresdefault.png" alt="cssslider" title="maxresdefault" id="wows1_6"/></a></li>
+		<li><img src="data1/images/seprodujolabatalladelaspiramides600x310.png" alt="se-produjo-la-batalla-de-las-piramides-600x310" title="se-produjo-la-batalla-de-las-piramides-600x310" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="13054-1-12_41_26"><span><img src="data1/tooltips/13054112_41_26.png" alt="13054-1-12_41_26"/>1</span></a>
+		<a href="#" title="244962_4677a22d632c3463afa17235c852caba_large"><span><img src="data1/tooltips/244962_4677a22d632c3463afa17235c852caba_large.png" alt="244962_4677a22d632c3463afa17235c852caba_large"/>2</span></a>
+		<a href="#" title="batalla_puebla_eu-movil"><span><img src="data1/tooltips/batalla_puebla_eumovil.png" alt="batalla_puebla_eu-movil"/>3</span></a>
+		<a href="#" title="batalla-5-de-mayo"><span><img src="data1/tooltips/batalla5demayo.png" alt="batalla-5-de-mayo"/>4</span></a>
+		<a href="#" title="batalla-de-Puebla"><span><img src="data1/tooltips/batalladepuebla.png" alt="batalla-de-Puebla"/>5</span></a>
+		<a href="#" title="historia-de-la-batalla-de-puebla-mexico"><span><img src="data1/tooltips/historiadelabatalladepueblamexico.png" alt="historia-de-la-batalla-de-puebla-mexico"/>6</span></a>
+		<a href="#" title="maxresdefault"><span><img src="data1/tooltips/maxresdefault.png" alt="maxresdefault"/>7</span></a>
+		<a href="#" title="se-produjo-la-batalla-de-las-piramides-600x310"><span><img src="data1/tooltips/seprodujolabatalladelaspiramides600x310.png" alt="se-produjo-la-batalla-de-las-piramides-600x310"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Batalla del 4 de Mayo</h1>
+       <div>
+
+       <p>Esta es la imagen</p>
+       <br>
+     </div>
+     <div><center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/batalla-5-de-mayo.png',1)"><img src="imagenes/batalla_puebla_eu-movil.png" width="800" height="535" id="Image22"></a>
+     </center></div>
+    </div>
+   </div>
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Batalla del 5 de Mayo</h1>
+       <div>
+
+       <p>Esta es la imagen</p>
+       <br>
+     </div>
+     <div><center>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/batalla-de-Puebla.png',1)"><img src="imagenes/batalla-5-de-mayo.png" width="640" height="310" id="Image20"></a></center>
+
+       </div>
+    </div>
+   </div>
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+       <h1>Leyendas del 5 de  de Mayo</h1>
+       <div>
+
+       <p>Esta es la imagen</p>
+       <br>
+     </div>
+     <div><center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/se-produjo-la-batalla-de-las-piramides-600x310.png',1)"><img src="imagenes/batalla_puebla_eu-movil.png" width="600" height="535" id="Image21"></a>
+     </center> 
+     </div>
+    </div>
+   </div>
+        
+           <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Batalla del 5 de mayo</h2>
+            <p>Se muestran los sucesos</p>
+         </a>
+       </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Batalla del  4 de mayo</h2>
+            <p>Se muestran los sucesos</p>
+         </a>
+       </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Heures de la  batalla del 5 de mayo</h2>
+            <p>Se muestran los sucesos</p>
+         </a>
+       </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Monumentos a la batalla del 5 de mayo</h2>
+            <p>Se muestran los sucesos</p>
+         </a>
+       </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Inicio del Conflicto</h2>
+            <p>Se muestran los sucesos</p>
+         </a>
+         </li>
+       </ul>
+
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+           <img src="res/android/mdpi.png" width="75" height="75">
+        </div>
+        <div>
+            <h4>Aplicacion seis</h4>
+            <h4>Axel Damian Romero</h4>
+         </div>
+        </div>
+        </div>
+        
+          <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>5 de mayo Puebla</h1>
+                </div>
+                <div data-role="content" align="center">
+                   <div>
+                       <h2>Puebla</h2></div>
+                       <img src="imagenes/puebla1.png" width="250" height="350">  
+                       <img src="imagenes/batalla-5-de-mayo.png" width="250" height="350" >
+                      </div>  
+                           <p> Este 5 de Mayo se conmemora el CLII aniversario de la Batalla de Puebla que tuvo lugar en el año de 1862 cuando México era presidido por Benito Juarez y fue atacado por el Ejército Francés que en ese entonces era considerado como invencible ya que no había perdido una batalla en más de 50 años. La historia de la Batalla de Puebla es sin duda un episodio que los mexicanos debemos conocer y admirar.</p>
+                                            <div>
+        <center>
+          <img src="imagenes/batalla_puebla_eu-movil.png" width="250" height="350">
+    </center>
+  </div>
+    <p> A continuación te explicaremos brevemente mediante un resumen algunos puntos destacados de la Batalla de Puebla para tratar de ayudarte a comprender de mejor manera qué es lo que sucedió en ese conflicto y por qué es tan importante para los mexicanos el celebrar esta fecha. </p>
+                     <div>
+        <center>
+          <img src="imagenes/historia-de-la-batalla-de-puebla-mexico.png".png" width="250" height="350">
+    </center>
+  </div>
+    <h2>Antecedentes de la Batalla de Puebla</h2>
+    
+
+<p>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una gran deuda de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</p>
+
+La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.
+
+Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al Ejército de Oriente y el hombre que se designó en el mando fue el general Ignacio Zaragoza.
+
+En un principio la Alianza Tripartita aceptó el llamado al diálogo de Benito Juarez y sus representantes se reunieron con Manuel Doblado, ministro de Relaciones Exteriores del gobierno mexicano, quien consiguió que Juan Prim, representante español, y Lord John Russell por Inglaterra se retiraran. A este acuerdo se le conoce como los Tratados Preliminares de la Soledad.
+
+<p>El 5 de marzo, cuando aún se realizaban las negociaciones de los Tratados de la Soledad, llegó a Veracruz un contingente militar francés bajo el mando de Charles Ferdinand Latrille, conde de Lorencez. A finales de abril, Lorencez desconoció los Tratados de Soledad y se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin último de conquistar la Ciudad de México</p>
+                      
+                      <div data-rele="main" class="ui-content" align="center">
+        <div style="bottom:0%;">
+        <ul data-role="controlgroup" data-type="horizontal" data-theme="b">
+        <li class="ui-first-child ui-last-child">
+        <a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" data-role="button" id="beep">
+        <h2>Mas Informacion</h2>
+        </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>Aplicacion seis,ADR</h4>
+                </div>
+               </div>
+               
+                       <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Batalla del 4 de Mayo</h1>
+                </div>
+                <div data-role="content" align="center">
+                   <div>
+                       <h2>Batalla en Atlixco</h2></div>
+                      </div>
+                      <center>
+                 <img src="imagenes/atlixco.png" width="200" height="200">
+                 <img src="imagenes/descarga.png" width="200" height="200">
+                 </center>
+                      <p>Todos los ciudadanos mexicanos sabemos perfectamente que el 5 de mayo de 1862 nuestras armas nacionales, representadas por el Cuerpo de Ejército de Oriente, que mandaba el general Ignacio Zaragoza, se cubrieron de gloria al rechazar, en la ciudad de Puebla, el ataque emprendido por el ejército expedicionario francés que invadió nuestra patria en los comienzos de aquella lucha armada internacional, que ha quedado registrada en nuestra historia como la Guerra de la Intervención Francesa.</p>
+                      
+<p>Pero si todos los mexicanos sabemos lo anterior, considero, en cambio, que sólo muy pocos saben que la brillante victoria de aquel día pudo ser alcanzada por el general Zaragoza, no sólo por el valor desplegado por las tropas que tenía bajo su mando inmediato y por las excelentes y atinadas disposiciones que dictó en el curso del combate, sino también, y muy particularmente, porque otras tropas mexicanas, pertenecientes al mismo Cuerpo de Ejército de Oriente, el día 4 anterior obtuvieron una señalada victoria en las cercanías del pueblo de Atlixco (unos 30 kilómetros al suroeste de la ciudad de Puebla), sobre los traidores que encabezaba el funesto general Leonardo Márquez, impidiendo, con aquel triunfo, que estos malos mexicanos se unieran a los invasores en aquella ocasión y les ayudaran al ataque de la capital poblana.<p>
+
+<p>Así pues, si la defensa del 5 de mayo de 1862 tuvo una gran significación militar, la victoria lograda el día 4 anterior en el combate de Atlixco, tuvo también su importancia. Tan fue así que el licenciado Benito Juárez, presidente entonces de la República, obrando con estricta justicia, por decreto fechado el 10 de diciembre de aquél mismo 1862 concedió una medalla
+de honor a todos los militares que participaron, tanto en la
+jornada del 4, como en la defensa del 5 de mayo de 1862.</p>
+                      
+         <div data-rele="main" class="ui-content" align="center">
+        <div style="bottom:0%;">
+        <ul data-role="controlgroup" data-type="horizontal" data-theme="b">
+        <li class="ui-first-child ui-last-child">
+        <a href="https://es.wikipedia.org/wiki/Batalla_de_Atlixco" data-role="button" id="beep">
+        <h2>Mas Informacion</h2>
+        </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>Aplicacion seis,ADR</h4>
+                </div>
+               </div>
+               
+                       <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Heures de La De Batalla</h1>
+                </div>
+                <div data-role="content" align="center">
+                   <div>
+                       <h2>Colegio Militar</h2></div>
+                      </div>
+                         <center>
+                    <img src="imagenes/juan-escutia-2.png" width="250" height="350" >
+                    <img src="imagenes/juanescu.png" width="250" height="350" >
+                 </center>
+                      <p>En honor de los militares que defendieron a México en la Batalla del 5 de Mayo se invierte cada año en un desfile y hasta hay calles con sus nombres, pero muchos de sus cuerpos están fuera de Puebla a falta de voluntad política.</p>
+
+<p>Salvo el General Ignacio Zaragoza cuyos restos están en el mausoleo de la Zona Cívica desde el centenario de la gesta, los restantes están en el Panteón de San Fernando en la Ciudad de México y han fracasado los intentos por traerlos</p>
+
+<p>La lista, explica el historiador de la Benemérita Universidad Autónoma de Puebla (BUAP), Humberto Morales Moreno, incluye a personajes como Felipe Berriozábal, Mariano Escobedo y Miguel Negrete.</p>
+
+De este último detalla, es de quien se han conocido esfuerzos de autoridades y cronistas de su natal Tepeaca para traerlo, que han fallado pese a tratarse de un proceso simple de nombramiento como Benemérito del estado.
+
+“Eso va a depender de una negociación política, va a depender mucho del gobierno del estado, eso lo tiene que platicar el Gobernador, el Congreso del estado”, explicó el especialista.
+
+<p>Revivir la figura histórica de Negrete, agregó Morales Moreno, es relevante por tratarse de un personaje que siempre tuvo una tendencia crítica hacia el poder, incluso a quienes respaldó.
+
+A lo largo de su vida, detalló, el dos veces Gobernador de Puebla abandonó el bando conservador cuando encontró irregularidades y de ahí surgió su ideal de preferir siempre la patria antes que un partido.
+
+Después de luchar por México en la batalla cuestionó a Benito Juárez y aunque en algún momento apoyó a Porfirio Díaz, después peleó contra sus reelecciones, hecho que le costó ser perseguido hasta la vejez.</p>
+
+“Lo de Negrete sí sería un buen motivo, más que nada para ensalzar el espíritu de la rebeldía y la lucha contra todo tipo de corrupción, Negrete es un excelente ejemplo de un luchador de origen indígena además”, comentó el historiador.
+
+Por parte de quienes respaldaron la Batalla del 5 de Mayo con la fuerza que llegó desde la Sierra Norte, agregó el académico, se conoce también de los restos de Juan Francisco Lucas.</p>
+                      
+            <div data-rele="main" class="ui-content" align="center">
+        <div style="bottom:0%;">
+        <ul data-role="controlgroup" data-type="horizontal" data-theme="b">
+        <li class="ui-first-child ui-last-child">
+        <a href="http://www.e-consulta.com/nota/2017-05-04/ciudad/destierra-puebla-sus-heroes-de-la-batalla-del-5-de-mayo" data-role="button" id="beep">
+        <h2>Mas Informacion</h2>
+        </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>Aplicacion seis,ADR</h4>
+                </div>
+               </div>
+               
+                       <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Monumentos a la Batalla</h1>
+                </div>
+                <div data-role="content" align="center">
+                   <div>
+                       <h2>Lugares Refeerentes</h2></div>
+                      </div>
+                      <div><center>
+                      <img src="imagenes/monu.png" width="240" height="280">
+                      </center></div>
+<p>Descripción de los arquitectos. En Puebla,  ciudad de leyendas e inmensa riqueza cultural, encontramos un caleidoscopio de edificaciones, texturas e interacciones que se entremezclan para regalarnos un mosaico de la actual cultura poblana. Dentro de éste marco, al noreste del zócalo se encuentra un complejo que agrupa diversos espacios para la cultura, educación y recreación; sitio que alberga al “Monumento Emblemático” del 150 Aniversario de la Batalla de Puebla.</p>
+                      <p>A través de la historia, monumentos se han erigido para recordar a las nuevas generaciones de los sucesos pasados que definen los tiempos actuales. Tipificados comúnmente como objetos escultóricos, nuestra propuesta busca fomentar las relaciones entre la continuidad del espacio público y potencializar el sitio, mediante la creación de espacios plurales de convivencia, así como el aprovechamiento de las vistas que otorga el emplazamiento. </p>
+                      <div>
+                      <center>
+                    <img src="imagenes/cole.png" width="250" height="250"> 
+                    </center></div>
+ <p>Formalmente, la idea de monumento es abstraída para diseñar un espacio que va de lo abierto a lo cerrado, de la escultura vertical a la horizontal; impulsando la convivencia a través de los intersticios que surgen de la elevación premeditada de niveles.</p>
+                    <div>
+                    <center>
+                      <img src="imagenes/monumentos.png" width="275" height="183"></center></div>
+<div data-rele="main" class="ui-content" align="center">
+    <div style="bottom:0%;">
+        <ul data-role="controlgroup" data-type="horizontal" data-theme="b">
+        <li class="ui-first-child ui-last-child">
+        <a href="http://www.archdaily.mx/mx/02-217021/monumento-emblematico-del-150-aniversario-de-la-batalla-de-puebla-ten-arquitectos" data-role="button" id="beep">
+        <h2>Mas Informacion</h2>
+        </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>Aplicacion seis,ADR</h4>
+                </div>
+               </div>
+               
+                              
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+                <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                  <h1>Inicio del Conflicto</h1>
+                </div>
+                <div data-role="content" align="center">
+                   <div>
+                       <h2>Causas, Consecuencias y Mas...</h2></div>
+                      </div>
+                      <center>
+  <img src="imagenes/images.png" width="260" height="194">
+  </center>
+  <p> 
+<h2>Antecedentes</h2>
+
+<p>Para 1862 se encontraba México sumido en una grave crisis económica y social, por la llamada “Guerra de los 3 años”. Para aquel momento histórico, Benito Juárez accede al poder y realiza un pronunciamiento en donde pide al menos 2 años de tregua en el pago de una deuda a Francia, a España y a Inglaterra, por lo que suspendió el pago de la misma. Esta situación no agradó a los acreedores, que además de su pago, tendrían otros intereses de ocupación, expansión y económicos en América.</p>
+
+<p>Con la suspensión de los pagos, y la tregua de 2 años para poder pagar, se forma una coalición de los tres países, España, Francia e Inglaterra, con el fin de invadir México para obligarlos a pagar la deuda. Ante estos hechos, Benito Juárez se prepara con un ejército de 4.800 hombres, al mando de Ignacio Zaragoza</p>
+                    <div>
+        <center>
+          <img src="imagenes/batalla-Austerlitz.png" width="250" height="350">
+    </center>
+  </div>
+
+
+<h2>Protagonistas</h2>
+
+<p>Benito Juárez, presidente durante los hechos, Ignacio Zaragoza, Comandante del Ejército de la República Mexicana, Charles Ferdinand Latrille, Conde de Lorence , comando del Ejército Francés.</p>
+
+
+<h2>Causas de la Batalla de Puebla</h2>
+
+<p>Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.</p>
+  <div>
+        <center>
+          <img src="imagenes/batalla.png" width="250" height="350">
+    </center>
+  </div>
+
+<p>Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios</p>
+<div data-rele="main" class="ui-content" align="center">
+    <div style="bottom:0%;">
+        <ul data-role="controlgroup" data-type="horizontal" data-theme="b">
+        <li class="ui-first-child ui-last-child">
+        <a href="http://www.paxala.com/la-batalla-de-puebla/" data-role="button" id="beep">
+        <h2>Mas Informacion</h2>
+        </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+        
+         <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>Aplicacion seis,ADR</h4>
+                </div>
+               </div>
+             
+       
+</body>
+</html>
