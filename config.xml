@@ -35,6 +35,16 @@
   
   <!--Colocar icono app -->
   
+  
+  
+  
+  <!-- Para accesar a paginas  en internet-->
+  <allow-intent href="https://*/*"/>
+   <acces origin="https://*/*"/>
+   <allow-intent href="https://*/*"/>
+   <acces origin="https://*/*"/>
+   <plugin name="cordova-plugin-whitelist" source="npm"/>
+  
   <icon src="res/android/mdpi.png" />
   
   </widget>
